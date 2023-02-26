@@ -12,5 +12,5 @@ Untuk menambahkan teks yang menghubungkan ke halaman Instagram Anda, gunakan sin
 
 less
 Copy code
-Kunjungi [halaman Instagram saya](https://www.instagram.com/nama_instagram_anda/) untuk melihat foto-foto terbaru saya.
+Kunjungi [halaman Instagram saya](https://www.instagram.com/@erdy.pwr_/) untuk melihat foto-foto terbaru saya.
 Setelah menambahkan teks atau ikon 
