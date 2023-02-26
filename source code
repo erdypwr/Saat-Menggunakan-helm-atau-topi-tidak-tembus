@@ -1,0 +1,36 @@
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(1)
+
+        local playerPed = PlayerPedId()
+        local helmet = GetPedPropIndex(playerPed, 0)
+        local hat = GetPedPropIndex(playerPed, 1)
+
+        if helmet ~= -1 or hat ~= -1 then
+            local drawable = GetPedDrawableVariation(playerPed, 2)
+            local texture = GetPedTextureVariation(playerPed, 2)
+
+            if IsPedMale(playerPed) then
+                if drawable == 14 then
+                    if texture == 0 then
+                        SetPedComponentVariation(playerPed, 2, 15, 0, 0)
+                    elseif texture == 2 then
+                        SetPedComponentVariation(playerPed, 2, 16, 0, 0)
+                    elseif texture == 4 then
+                        SetPedComponentVariation(playerPed, 2, 17, 0, 0)
+                    end
+                end
+            else
+                if drawable == 15 then
+                    if texture == 0 then
+                        SetPedComponentVariation(playerPed, 2, 18, 0, 0)
+                    elseif texture == 2 then
+                        SetPedComponentVariation(playerPed, 2, 19, 0, 0)
+                    elseif texture == 4 then
+                        SetPedComponentVariation(playerPed, 2, 20, 0, 0)
+                    end
+                end
+            end
+        end
+    end
+end)
