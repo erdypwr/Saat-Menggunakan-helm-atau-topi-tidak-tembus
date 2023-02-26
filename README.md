@@ -5,7 +5,7 @@ Untuk menambahkan ikon Instagram, Anda dapat menggunakan sintaks Markdown sepert
 
 less
 Copy code
-[![Instagram icon](https://image.flaticon.com/icons/png/128/1384/1384063.png)](https://www.instagram.com/nama_instagram_anda/)
+[![Instagram icon]([https://image.flaticon.com/icons/png/128/1384/1384063.png](https://ibb.co/TWYTZgV))](https://www.instagram.com/@erdy.pwr_/)
 Anda dapat mengubah URL dan deskripsi ikon sesuai dengan keinginan Anda.
 
 Untuk menambahkan teks yang menghubungkan ke halaman Instagram Anda, gunakan sintaks Markdown seperti ini:
