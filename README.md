@@ -2,11 +2,7 @@ Script ini akan memeriksa apakah karakter sedang menggunakan helm atau topi, dan
 README.md.
 
 Untuk menambahkan ikon Instagram, Anda dapat menggunakan sintaks Markdown seperti ini:
-
-less
-Copy code
-[![Instagram icon]([https://image.flaticon.com/icons/png/128/1384/1384063.png](https://ibb.co/TWYTZgV))](https://www.instagram.com/@erdy.pwr_/)
-Anda dapat mengubah URL dan deskripsi ikon sesuai dengan keinginan Anda.
+[![Instagram icon](<a href="https://imgbb.com/"><img src="https://i.ibb.co/qJ7nzrt/erdypwr2.jpg" alt="erdypwr2" border="0"></a>)](https://www.instagram.com/nama_instagram_anda/)).
 
 Untuk menambahkan teks yang menghubungkan ke halaman Instagram Anda, gunakan sintaks Markdown seperti ini:
 
